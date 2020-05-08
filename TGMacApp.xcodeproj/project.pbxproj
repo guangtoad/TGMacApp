@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B956E87ADBDAA60824A035 /* Pods_TGMacAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496E816FF55551571C9AAEDC /* Pods_TGMacAppTests.framework */; };
+		D5F2FEE87A8F5457B80ECB3D /* Pods_TGMacApp_TGMacAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44E83F8843617CC2BBC154E /* Pods_TGMacApp_TGMacAppUITests.framework */; };
+		F2C6904A98B66A87E48FBB51 /* Pods_TGMacApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7351F21E191193E9468FC6D /* Pods_TGMacApp.framework */; };
+		F4AA9C4F210B157A00A7FD4E /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AA9C4E210B157A00A7FD4E /* NetworkExtension.framework */; };
+		F4FB6CF3210AF134001D2184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6CF2210AF134001D2184 /* AppDelegate.m */; };
+		F4FB6CF6210AF134001D2184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6CF5210AF134001D2184 /* ViewController.m */; };
+		F4FB6CF8210AF136001D2184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FB6CF7210AF136001D2184 /* Assets.xcassets */; };
+		F4FB6CFB210AF136001D2184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FB6CF9210AF136001D2184 /* Main.storyboard */; };
+		F4FB6CFE210AF136001D2184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6CFD210AF136001D2184 /* main.m */; };
+		F4FB6D09210AF136001D2184 /* TGMacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6D08210AF136001D2184 /* TGMacAppTests.m */; };
+		F4FB6D14210AF136001D2184 /* TGMacAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FB6D13210AF136001D2184 /* TGMacAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4FB6D05210AF136001D2184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4FB6CE6210AF134001D2184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4FB6CED210AF134001D2184;
+			remoteInfo = TGMacApp;
+		};
+		F4FB6D10210AF136001D2184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4FB6CE6210AF134001D2184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4FB6CED210AF134001D2184;
+			remoteInfo = TGMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011CA403DE9EB7D261008AF2 /* Pods-TGMacApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMacApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TGMacApp/Pods-TGMacApp.release.xcconfig"; sourceTree = "<group>"; };
+		290B745CE2CEC4C043A38FA0 /* Pods-TGMacApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMacApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGMacApp/Pods-TGMacApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC6C0C915FA58C615A7140D /* Pods-TGMacApp-TGMacAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMacApp-TGMacAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TGMacApp-TGMacAppUITests/Pods-TGMacApp-TGMacAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43085B0E5F02078F5158BF03 /* Pods-TGMacAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMacAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGMacAppTests/Pods-TGMacAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		496E816FF55551571C9AAEDC /* Pods_TGMacAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGMacAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3A9F93B5C0FCC59AB47F1D /* Pods-TGMacApp-TGMacAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMacApp-TGMacAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TGMacApp-TGMacAppUITests/Pods-TGMacApp-TGMacAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		777531AFF950F97AA3003E49 /* libPods-TGMacApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TGMacApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF25ED6233851CCB85856867 /* Pods-TGMacAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGMacAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TGMacAppTests/Pods-TGMacAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7351F21E191193E9468FC6D /* Pods_TGMacApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGMacApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44E83F8843617CC2BBC154E /* Pods_TGMacApp_TGMacAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGMacApp_TGMacAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AA9C4E210B157A00A7FD4E /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		F4FB6CEE210AF134001D2184 /* TGMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FB6CF1210AF134001D2184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4FB6CF2210AF134001D2184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4FB6CF4210AF134001D2184 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4FB6CF5210AF134001D2184 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4FB6CF7210AF136001D2184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4FB6CFA210AF136001D2184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4FB6CFC210AF136001D2184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FB6CFD210AF136001D2184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4FB6CFF210AF136001D2184 /* TGMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TGMacApp.entitlements; sourceTree = "<group>"; };
+		F4FB6D04210AF136001D2184 /* TGMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FB6D08210AF136001D2184 /* TGMacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMacAppTests.m; sourceTree = "<group>"; };
+		F4FB6D0A210AF136001D2184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FB6D0F210AF136001D2184 /* TGMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FB6D13210AF136001D2184 /* TGMacAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMacAppUITests.m; sourceTree = "<group>"; };
+		F4FB6D15210AF136001D2184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FB6CEB210AF134001D2184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AA9C4F210B157A00A7FD4E /* NetworkExtension.framework in Frameworks */,
+				F2C6904A98B66A87E48FBB51 /* Pods_TGMacApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB6D01210AF136001D2184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B956E87ADBDAA60824A035 /* Pods_TGMacAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB6D0C210AF136001D2184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F2FEE87A8F5457B80ECB3D /* Pods_TGMacApp_TGMacAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D505D3A94BAE0B4F372D44E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				290B745CE2CEC4C043A38FA0 /* Pods-TGMacApp.debug.xcconfig */,
+				011CA403DE9EB7D261008AF2 /* Pods-TGMacApp.release.xcconfig */,
+				5D3A9F93B5C0FCC59AB47F1D /* Pods-TGMacApp-TGMacAppUITests.debug.xcconfig */,
+				2EC6C0C915FA58C615A7140D /* Pods-TGMacApp-TGMacAppUITests.release.xcconfig */,
+				43085B0E5F02078F5158BF03 /* Pods-TGMacAppTests.debug.xcconfig */,
+				BF25ED6233851CCB85856867 /* Pods-TGMacAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBDE531CF75625B0507DDAB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4AA9C4E210B157A00A7FD4E /* NetworkExtension.framework */,
+				777531AFF950F97AA3003E49 /* libPods-TGMacApp.a */,
+				C7351F21E191193E9468FC6D /* Pods_TGMacApp.framework */,
+				D44E83F8843617CC2BBC154E /* Pods_TGMacApp_TGMacAppUITests.framework */,
+				496E816FF55551571C9AAEDC /* Pods_TGMacAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F3D270214F4B5100B4A9B1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F4FB6CE5210AF134001D2184 = {
+			isa = PBXGroup;
+			children = (
+				F4FB6CF0210AF134001D2184 /* TGMacApp */,
+				F4FB6D07210AF136001D2184 /* TGMacAppTests */,
+				F4FB6D12210AF136001D2184 /* TGMacAppUITests */,
+				F4FB6CEF210AF134001D2184 /* Products */,
+				D505D3A94BAE0B4F372D44E4 /* Pods */,
+				EBDE531CF75625B0507DDAB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FB6CEF210AF134001D2184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB6CEE210AF134001D2184 /* TGMacApp.app */,
+				F4FB6D04210AF136001D2184 /* TGMacAppTests.xctest */,
+				F4FB6D0F210AF136001D2184 /* TGMacAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FB6CF0210AF134001D2184 /* TGMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3D270214F4B5100B4A9B1 /* New Group */,
+				F4FB6CF1210AF134001D2184 /* AppDelegate.h */,
+				F4FB6CF2210AF134001D2184 /* AppDelegate.m */,
+				F4FB6CF4210AF134001D2184 /* ViewController.h */,
+				F4FB6CF5210AF134001D2184 /* ViewController.m */,
+				F4FB6CF7210AF136001D2184 /* Assets.xcassets */,
+				F4FB6CF9210AF136001D2184 /* Main.storyboard */,
+				F4FB6CFC210AF136001D2184 /* Info.plist */,
+				F4FB6CFD210AF136001D2184 /* main.m */,
+				F4FB6CFF210AF136001D2184 /* TGMacApp.entitlements */,
+			);
+			path = TGMacApp;
+			sourceTree = "<group>";
+		};
+		F4FB6D07210AF136001D2184 /* TGMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB6D08210AF136001D2184 /* TGMacAppTests.m */,
+				F4FB6D0A210AF136001D2184 /* Info.plist */,
+			);
+			path = TGMacAppTests;
+			sourceTree = "<group>";
+		};
+		F4FB6D12210AF136001D2184 /* TGMacAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB6D13210AF136001D2184 /* TGMacAppUITests.m */,
+				F4FB6D15210AF136001D2184 /* Info.plist */,
+			);
+			path = TGMacAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FB6CED210AF134001D2184 /* TGMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FB6D18210AF136001D2184 /* Build configuration list for PBXNativeTarget "TGMacApp" */;
+			buildPhases = (
+				E7368225EE1C3799FB3A5CFF /* [CP] Check Pods Manifest.lock */,
+				F4FB6CEA210AF134001D2184 /* Sources */,
+				F4FB6CEB210AF134001D2184 /* Frameworks */,
+				F4FB6CEC210AF134001D2184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGMacApp;
+			productName = TGMacApp;
+			productReference = F4FB6CEE210AF134001D2184 /* TGMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4FB6D03210AF136001D2184 /* TGMacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FB6D1B210AF136001D2184 /* Build configuration list for PBXNativeTarget "TGMacAppTests" */;
+			buildPhases = (
+				58751E7120ACEFDCBF40F83F /* [CP] Check Pods Manifest.lock */,
+				F4FB6D00210AF136001D2184 /* Sources */,
+				F4FB6D01210AF136001D2184 /* Frameworks */,
+				F4FB6D02210AF136001D2184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FB6D06210AF136001D2184 /* PBXTargetDependency */,
+			);
+			name = TGMacAppTests;
+			productName = TGMacAppTests;
+			productReference = F4FB6D04210AF136001D2184 /* TGMacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4FB6D0E210AF136001D2184 /* TGMacAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FB6D1E210AF136001D2184 /* Build configuration list for PBXNativeTarget "TGMacAppUITests" */;
+			buildPhases = (
+				937EAB41DA26D60AA0355F25 /* [CP] Check Pods Manifest.lock */,
+				F4FB6D0B210AF136001D2184 /* Sources */,
+				F4FB6D0C210AF136001D2184 /* Frameworks */,
+				F4FB6D0D210AF136001D2184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FB6D11210AF136001D2184 /* PBXTargetDependency */,
+			);
+			name = TGMacAppUITests;
+			productName = TGMacAppUITests;
+			productReference = F4FB6D0F210AF136001D2184 /* TGMacAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FB6CE6210AF134001D2184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = toad;
+				TargetAttributes = {
+					F4FB6CED210AF134001D2184 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+						};
+					};
+					F4FB6D03210AF136001D2184 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F4FB6CED210AF134001D2184;
+					};
+					F4FB6D0E210AF136001D2184 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F4FB6CED210AF134001D2184;
+					};
+				};
+			};
+			buildConfigurationList = F4FB6CE9210AF134001D2184 /* Build configuration list for PBXProject "TGMacApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4FB6CE5210AF134001D2184;
+			productRefGroup = F4FB6CEF210AF134001D2184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FB6CED210AF134001D2184 /* TGMacApp */,
+				F4FB6D03210AF136001D2184 /* TGMacAppTests */,
+				F4FB6D0E210AF136001D2184 /* TGMacAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4FB6CEC210AF134001D2184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FB6CF8210AF136001D2184 /* Assets.xcassets in Resources */,
+				F4FB6CFB210AF136001D2184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB6D02210AF136001D2184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB6D0D210AF136001D2184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58751E7120ACEFDCBF40F83F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGMacAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		937EAB41DA26D60AA0355F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGMacApp-TGMacAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7368225EE1C3799FB3A5CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGMacApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FB6CEA210AF134001D2184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FB6CF6210AF134001D2184 /* ViewController.m in Sources */,
+				F4FB6CFE210AF136001D2184 /* main.m in Sources */,
+				F4FB6CF3210AF134001D2184 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB6D00210AF136001D2184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FB6D09210AF136001D2184 /* TGMacAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FB6D0B210AF136001D2184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FB6D14210AF136001D2184 /* TGMacAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4FB6D06210AF136001D2184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4FB6CED210AF134001D2184 /* TGMacApp */;
+			targetProxy = F4FB6D05210AF136001D2184 /* PBXContainerItemProxy */;
+		};
+		F4FB6D11210AF136001D2184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4FB6CED210AF134001D2184 /* TGMacApp */;
+			targetProxy = F4FB6D10210AF136001D2184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4FB6CF9210AF136001D2184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FB6CFA210AF136001D2184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4FB6D16210AF136001D2184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4FB6D17210AF136001D2184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4FB6D19210AF136001D2184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290B745CE2CEC4C043A38FA0 /* Pods-TGMacApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TGMacApp/TGMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4FB6D1A210AF136001D2184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011CA403DE9EB7D261008AF2 /* Pods-TGMacApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TGMacApp/TGMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4FB6D1C210AF136001D2184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43085B0E5F02078F5158BF03 /* Pods-TGMacAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGMacApp.app/Contents/MacOS/TGMacApp";
+			};
+			name = Debug;
+		};
+		F4FB6D1D210AF136001D2184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF25ED6233851CCB85856867 /* Pods-TGMacAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGMacApp.app/Contents/MacOS/TGMacApp";
+			};
+			name = Release;
+		};
+		F4FB6D1F210AF136001D2184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3A9F93B5C0FCC59AB47F1D /* Pods-TGMacApp-TGMacAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGMacApp;
+			};
+			name = Debug;
+		};
+		F4FB6D20210AF136001D2184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC6C0C915FA58C615A7140D /* Pods-TGMacApp-TGMacAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				INFOPLIST_FILE = TGMacAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toad.TGMacAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGMacApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FB6CE9210AF134001D2184 /* Build configuration list for PBXProject "TGMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FB6D16210AF136001D2184 /* Debug */,
+				F4FB6D17210AF136001D2184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FB6D18210AF136001D2184 /* Build configuration list for PBXNativeTarget "TGMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FB6D19210AF136001D2184 /* Debug */,
+				F4FB6D1A210AF136001D2184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FB6D1B210AF136001D2184 /* Build configuration list for PBXNativeTarget "TGMacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FB6D1C210AF136001D2184 /* Debug */,
+				F4FB6D1D210AF136001D2184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FB6D1E210AF136001D2184 /* Build configuration list for PBXNativeTarget "TGMacAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FB6D1F210AF136001D2184 /* Debug */,
+				F4FB6D20210AF136001D2184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FB6CE6210AF134001D2184 /* Project object */;
+}

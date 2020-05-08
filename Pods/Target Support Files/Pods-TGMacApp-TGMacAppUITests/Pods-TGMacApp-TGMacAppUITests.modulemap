@@ -1,0 +1,6 @@
+framework module Pods_TGMacApp_TGMacAppUITests {
+  umbrella header "Pods-TGMacApp-TGMacAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
